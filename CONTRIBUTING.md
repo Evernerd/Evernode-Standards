@@ -2,7 +2,7 @@
 
 Contributions to this repo are free, open-source, and follow the process outlined below:
 
-Any ES-Standards document can be referred to interchangeably as an "ES", "Evernode Standard", or "document".
+Any EVS-Standards document can be referred to interchangeably as an "EVS", "Evernode Standard", or "document".
 
 ## Summary
 
@@ -19,7 +19,7 @@ The work of the Evernode community is open source, collaborative, and welcoming 
 
 ## Process
 
-The ES-Standards process attempts to be easy to use, but also rigorous enough that there are permalinks to revisions of documents for reference purposes.
+The EVS-Standards process attempts to be easy to use, but also rigorous enough that there are permalinks to revisions of documents for reference purposes.
 
 ### Gathering Feedback Before Submitting
 
@@ -27,7 +27,7 @@ Please gather community input before opening a PR. Collecting such feedback help
 
 Start a [Discussion](https://github.com/Evernerd/Evernode-Standards/discussions) under this repo.
 
-The title should follow the naming convention `ES-0000d {Title}`, where `0000` is a unique number for the ES, `d` indicates that the document is a Draft (in progress), and `{Title}` is a descriptive title for the proposed document.
+The title should follow the naming convention `EVS-0000d {Title}`, where `0000` is a unique number for the EVS, `d` indicates that the document is a Draft (in progress), and `{Title}` is a descriptive title for the proposed document.
 
 Use the next number that has not yet been used. If a conflict occurs, it will be fixed by a maintainer or editor. Maintainers or editors also reserve the right to remove or re-number proposals as necessary.
 
@@ -46,7 +46,7 @@ The last comment on the discussion should also be a link to the PR.
 
 Finally, the discussion should be closed from further comments, with further comments instead being posted on the PR for fine-tuning and alignment with implementation or adoption (as appropriate).
 
-When opening a PR, there are two document types: *Drafts* and *Candidate Specifications*. The type and status of any particular document has no bearing on the priority of that document. Typically, the further along in the process, the more likely it is that any particular ES will be implemented or adopted.
+When opening a PR, there are two document types: *Drafts* and *Candidate Specifications*. The type and status of any particular document has no bearing on the priority of that document. Typically, the further along in the process, the more likely it is that any particular EVS will be implemented or adopted.
 
 ### Drafts
 
@@ -61,22 +61,22 @@ Notice that a Draft is not a [rubber-stamp](https://idioms.thefreedictionary.com
 
 #### Publishing a Draft
 
-To publish a new Draft, submit a Pull Request to this repo with a new folder and a new Markdown file. The folder MUST follow the naming convention `ES-0000d-{title}`, `0000` is the unique number referencing the ES, `d` indicates that the document is a Draft, and `title` is a lower case title with spaces replaced by hyphens (`-`). The submission should have front-matter (similar to GitHub pages rendered from Markdown) specifying at least a `title` and `type`. The `type` MUST have the value `draft`.
+To publish a new Draft, submit a Pull Request to this repo with a new folder and a new Markdown file. The folder MUST follow the naming convention `EVS-0000d-{title}`, `0000` is the unique number referencing the EVS, `d` indicates that the document is a Draft, and `title` is a lower case title with spaces replaced by hyphens (`-`). The submission should have front-matter (similar to GitHub pages rendered from Markdown) specifying at least a `title` and `type`. The `type` MUST have the value `draft`.
 
 Use the following template when creating the Markdown file: [es-template.md](./es-template.md)
 
-Assuming there is consensus to publish, one of the project maintainers will review the submission and confirm the document's ES number, often making a follow-up commit to the PR which renames the file as appropriate.
+Assuming there is consensus to publish, one of the project maintainers will review the submission and confirm the document's EVS number, often making a follow-up commit to the PR which renames the file as appropriate.
 
 ### Candidate Specifications
 
-A _Candidate Specification_ is a document that was previously a Draft that is considered stable enough by the community such that no further changes are required. Once an ES becomes a Candidate Specification, no further substantive changes are allowed under the same ES number.
+A _Candidate Specification_ is a document that was previously a Draft that is considered stable enough by the community such that no further changes are required. Once an EVS becomes a Candidate Specification, no further substantive changes are allowed under the same EVS number.
 
 #### Publishing a Candidate Specification
 
 When a Draft is considered stable, there is a call for review from the community to publish the document as a Candidate Specification by making a PR to remove the `d` from the document folder name and update the `type` to `candidate-specification`.
 
 
-Once published as a Candidate Specification, no further substantive changes are allowed under the same ES number.
+Once published as a Candidate Specification, no further substantive changes are allowed under the same EVS number.
 
 For Specifications that require changes or implementation in the HotPocket, Sashimono, Evernode Host server software and protocol, the Candidate Specification cannot be published until the relevant change has been merged into the software's `master` branch.
 
@@ -84,6 +84,6 @@ For Specifications that require changes or implementation in the HotPocket, Sash
 
 The community may discover errors in a Candidate Specification. In these circumstances, it is possible to update the document to fix typos or clarify the original meaning of the document.
 
-### Deprecated or Rejected ES's
+### Deprecated or Rejected EVS's
 
-An ES document may be rejected after public discussion has settled and comments have been made summarizing the rationale for rejection. Similarly, a document may be deprecated when its use should be discouraged. A member of the core maintainer team will move rejected and deprecated proposals to the `/rejected` folder in this repo.
+An EVS document may be rejected after public discussion has settled and comments have been made summarizing the rationale for rejection. Similarly, a document may be deprecated when its use should be discouraged. A member of the core maintainer team will move rejected and deprecated proposals to the `/rejected` folder in this repo.
