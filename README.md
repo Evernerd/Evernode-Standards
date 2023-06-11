@@ -13,12 +13,12 @@ https://github.com/Evernerd/Evernerd-Standards/blob/master/standards.toml
 
 # Numbering
 
-Standards must be numbered and referenced in the following format: ES-# where # is a natural number (without left padded zeros), called the __Standard Number__.
+Standards must be numbered and referenced in the following format: EVS-# where # is a natural number (without left padded zeros), called the __Standard Number__.
 
 # Revisions
 
-If a standard requires a substantive revision and using the same number would result in confusion, a separator '.' may be added, e.g. `ES-1.1`.
+If a standard requires a substantive revision and using the same number would result in confusion, a separator '.' may be added, e.g. `EVS-1.1`.
 
 # Drafts
 
-A standard which has not yet been adopted may 'hold' a Standard Number but must be referred to with a __d__ suffix until it becomes a full standard, e.g. `ES-3d` or `ES-1.2d`.
+A standard which has not yet been adopted may 'hold' a Standard Number but must be referred to with a __d__ suffix until it becomes a full standard, e.g. `EVS-3d` or `EVS-1.2d`.
