@@ -8,7 +8,7 @@ author: <a comma separated list of the author(s)>
 # - Author's name, author's affiliation + email (in angle brackets)
 #
 # Example: FirstName LastName, OrganizationName (@GitHubUsername) , FirstName LastName, BarCompany <foo@bar.com>
-requires: <ES number(s)> # Only required when you reference an ES in the `Specification` section. Otherwise, remove this field.
+requires: <EVS number(s)> # Only required when you reference an EVS in the `Specification` section. Otherwise, remove this field.
 core_protocol_changes_required: <true/false> # Indicates whether the proposal requires any changes to the core protocol.
 ---
 
@@ -35,9 +35,9 @@ core_protocol_changes_required: <true/false> # Indicates whether the proposal re
 <!--
   This section is optional.
 
-  The motivation section should include a description of any nontrivial problems the ES solves. It should not describe how it solves those problems, unless it is not immediately obvious. It should not describe why the ES should be made into a standard, unless it is not immediately obvious.
+  The motivation section should include a description of any nontrivial problems the EVS solves. It should not describe how it solves those problems, unless it is not immediately obvious. It should not describe why the EVS should be made into a standard, unless it is not immediately obvious.
 
-  With a few exceptions, external links are not necessary in this section. If you feel that a particular resource would demonstrate a compelling case for the ES, then save it as a printer-friendly PDF, put it in the folder with this ES, and link to that copy.
+  With a few exceptions, external links are not necessary in this section. If you feel that a particular resource would demonstrate a compelling case for the EVS, then save it as a printer-friendly PDF, put it in the folder with this EVS, and link to that copy.
 
   TODO: Remove this comment before submitting
 -->
@@ -100,7 +100,7 @@ TBD
 
   This section is optional.
 
-  All ES specs that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. This section must explain how the author proposes to deal with these incompatibilities. Submissions without a sufficient backwards compatibility treatise may be rejected outright.
+  All EVS specs that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. This section must explain how the author proposes to deal with these incompatibilities. Submissions without a sufficient backwards compatibility treatise may be rejected outright.
 
   The current placeholder is acceptable for a draft.
 
@@ -115,7 +115,7 @@ No backward compatibility issues found.
   This section is optional.
 
   The Test Cases section should include expected input/output pairs, but may include a succinct set of executable tests. It should not include project build files. No new requirements may be be introduced here (meaning an implementation following only the Specification section should pass all tests here.)
-  If the test suite is too large to reasonably be included inline, then consider adding it as one or more files in the folder with this ES. External links are discouraged.
+  If the test suite is too large to reasonably be included inline, then consider adding it as one or more files in the folder with this EVS. External links are discouraged.
 
   TODO: Remove this comment before submitting
 -->
@@ -126,7 +126,7 @@ No backward compatibility issues found.
   This section is optional.
 
   The Reference Implementation section should include a minimal implementation that assists in understanding or implementing this specification. It should not include project build files. The reference implementation is not a replacement for the Specification section, and the proposal should still be understandable without it.
-  If the reference implementation is too large to reasonably be included inline, then consider adding it as one or more files in the folder with this ES. External links are discouraged.
+  If the reference implementation is too large to reasonably be included inline, then consider adding it as one or more files in the folder with this EVS. External links are discouraged.
 
   TODO: Remove this comment before submitting
 -->
